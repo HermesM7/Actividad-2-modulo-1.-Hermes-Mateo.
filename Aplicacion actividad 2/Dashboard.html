@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu Dashboard</title>
+    <!-- BOX ICONS -->
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+    <!-- CUSTOM CSS -->
+    <link rel="stylesheet" href="/Dashboardd.css">
+    <!-- CUSTOM JS -->
+    <script src="./js/app.js" defer></script>
+</head>
+<body>
+
+    <div class="menu-dashboard">
+        
+        <div class="top-menu">
+            <div class="logo">
+                <img src="/logo-infotep-png-cuadrado-HD.webp" alt="">
+                <span>Infotep virtual</span>
+            </div>
+            <div class="toggle">
+                <i class='bx bx-menu'></i>
+            </div>
+        </div>
+        
+        <div class="input-search">
+            <i class='bx bx-search'></i>
+            <input type="text" class="input" placeholder="Buscar">
+        </div>
+        
+        <div class="menu">
+            <div class="enlace">
+                <i class="bx bx-grid-alt"></i>
+                <span>Dashboard</span>
+            </div>
+
+            <div class="enlace">
+                <i class="bx bx-user"></i>
+                <span>Agregar estudiantes</span>
+                <section class="form-register">
+                <h4>Agregar estudiantes</h4>
+                    <input class="controls" type="text" name="nombres" id="nombres" placeholder="Ingrese su Nombre">
+                    <input class="controls" type="text" name="apellidos" id="apellidos" placeholder="Ingrese su Apellido">
+                    <input class="botons" type="submit" value="Registrar">
+                  </section>
+            </div>
+
+            <div class="enlace">
+                <i class="bx bx-grid-alt"></i>
+                <span>Crear cursos</span>
+                <input class="controls" type="text" name="nombres" id="nombres" placeholder="Ingrese el nombre del curso">
+                    <input class="controls" type="text" name="apellidos" id="apellidos" placeholder="Ingrese la duracion del curso">
+                    <input class="botons" type="submit" value="Registrar">
+            </div>
+
+            <div class="enlace">
+                <i class="bx bx-message-square"></i>
+                <span>Certificados</span>
+                <input class="controls" type="text" name="nombres" id="nombres" placeholder="Ingresa el nombre del certificado">
+                    <input class="controls" type="text" name="apellidos" id="apellidos" placeholder="Ingrese certificado a imprimir">
+                    <input class="botons" type="submit" value="Registrar certificado">
+            </div>
+        </div>
+    </div>
+    
+    <script src="Dashboard.js"></script>
+</body>
+</html>
